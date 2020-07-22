@@ -1,0 +1,21 @@
+:root {
+    --color__icon: #FF00FF;
+    --color__icon2: green;
+    --width: 20px;
+}
+
+.toolbar {
+    display: inline-block;
+}
+.toolbar__icon {
+    width: var(--width);
+    height: 20px;
+}
+
+.icon {
+    fill: var(--color__icon)
+}
+
+.icon:hover {
+    fill: var(--color__icon2)
+}
